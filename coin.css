@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto; /*Make the grid smaller than the container*/
+  grid-gap: 10px;
+  background-color: #029474;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  background-color: rgb(175, 252, 255, 0.8);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 25px;
+  height: auto;
+  width: 400px;
+}
+div.font {
+  font-size: large;
+}
